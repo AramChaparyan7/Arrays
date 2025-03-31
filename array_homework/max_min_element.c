@@ -1,18 +1,15 @@
 #include <stdio.h>
+#define size 10
 
 int main(){
-	const int size=100;
-	int arr[size];
-	int count=0;
-	printf("how many numbers?\n");
-	scanf("%d",&count);
-	printf("input your numbers\n");
-	for(int i=0;i<count;++i){
+	int arr[size]={};
+	printf("input 10 numbers\n");
+	for(int i=0;i<size;++i){
 		scanf("%d",&arr[i]);
 	}
 	int max=arr[0];
 	int min=arr[0];
-	for(int i=1;i<count;++i){
+	for(int i=1;i<size;++i){
 		if(min>arr[i]){
 			min=arr[i];
 		}else if(max<arr[i]){
