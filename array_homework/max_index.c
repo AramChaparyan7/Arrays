@@ -9,7 +9,7 @@ int main(){
 	}
 	int maxindex=0;
 	for(int i=1;i<size;++i){
-		if(maxindex<arr[i]){
+		if(arr[maxindex]<arr[i]){
 			maxindex=i;
 		}
 	}
