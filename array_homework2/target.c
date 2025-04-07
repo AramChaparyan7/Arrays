@@ -6,7 +6,7 @@ int  main(){
 	int target=0;
 	printf("input 10 numbers\n");
 	for(int i=0;i<size;++i){
-		scanf("%d",&arr[i]);
+		scanf("%d",arr+i);
 	}
 	scanf("%d",&target);
 	int q=-1;

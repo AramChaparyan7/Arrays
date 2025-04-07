@@ -6,7 +6,7 @@ int main(){
 	int arr2[size]={};
 	printf("input numbers of first array\n");
 	for(int i=0;i<size;++i){
-		scanf("%d",&arr1[i]);
+		scanf("%d",arr1+i);
 	}
 	printf("input numbers of second array\n");
 	for(int i=0;i<size;++i){

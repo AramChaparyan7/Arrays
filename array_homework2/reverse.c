@@ -5,7 +5,7 @@ int main(){
 	char arr[size]={};
 	printf("input a line with 5 characters\n");
 	for(int i=0;i<size;i++){
-		scanf("%c",&arr[i]);
+		scanf("%c",arr+i);
 	}
 	for(int i=0;i<size/2+1;i++){
 		int temp=arr[i];

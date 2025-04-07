@@ -8,12 +8,8 @@ int main(){
 		}
 	}
 	int q=0;
-	for(int i=0;i<size;i++){
-		for(int j=0;j<size;j++){
-			if(i==j){
-				q+=arr[i][j];
-			}
-		}
+	for(int i=0,j=0;i<size && j<size;++i,++j){
+		q+=arr[i][j];
 	}
 	printf("sum is %d\n",q);
 	return 0;
